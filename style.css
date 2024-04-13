@@ -113,6 +113,7 @@ body {
 
 .container {
   width: 375px;
+  height: 625px;
   margin: 0 auto;
   background-color: var(--clr-VerydarkbluecardBG);
   padding: 2rem;
@@ -153,16 +154,19 @@ body {
 }
 
 .bottompic {
-  transform: scale(30%);
-  border: 2px solid white;
+  width: 50px;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
 .creator {
   color: var(--clr-softblue);
+  display: inline-block;
 }
 
 strong {
   color: var(--clr-White);
   font-weight: var(--fw-300);
 }
+
+/*stuck at bottom, can't get creation of jules wyvern up. Otherwise, finished*/
